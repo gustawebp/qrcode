@@ -1,0 +1,97 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+h1{
+    text-align: center;
+    
+
+}
+
+main{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.09),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.129),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.16),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.191),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.23),
+  100px 100px 80px rgba(0, 0, 0, 0.32);
+
+  padding: 20px;
+}
+
+textarea{
+    pointer-events: auto;
+    resize: none; /* impede o redimensionamento do textarea */
+}
+
+button{
+
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button:hover{
+    box-shadow: 1px 5px 10px black;
+}
+
+.seuqrcode{
+    margin-top: 50px;
+
+    width:50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.09),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.129),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.16),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.191),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.23),
+  100px 100px 80px rgba(0, 0, 0, 0.32);
+
+
+
+}
+
+#i{
+    margin: 5px;
+    width: 75%;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+    height: 100%;
+    font-size: 15pt;
+    padding: 10px;
+    
+
+    
+}
+#i::placeholder{
+    color: rgb(255, 0, 0);
+    font-size: 15pt;
+    opacity: 50%;
+
+
+}
+
+
+
+#i:active{
+    border: 0;
+}
+img{
+    width: 150px;
+    text-align: center;
+}
